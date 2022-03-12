@@ -1,0 +1,134 @@
+
+nav#menu
+{
+    top: 0;
+}
+nav#menu ul 
+{
+    background-color: rgb(255,1,77);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+nav#menu ul li:hover
+{
+    background-color: white;
+    color: black;
+}
+nav#menu ul li a
+{
+    white-space: nowrap;
+    height: 50px;
+    line-height: 50px;
+    color: inherit;
+    text-decoration: inherit;
+}
+/****** SOUS-MENU*****/
+#menu ul ul 
+{
+   display: none;
+}
+#menu ul ul li a 
+{
+   width: 200px;
+}
+#menu ul li:hover ul 
+{
+   display: block;
+}
+/********** SOUS-MENU DE SOUS-MENU *******/
+#menu ul ul ul  
+{
+    top: 90px;
+    left: 240px;
+}
+#menu ul li:hover ul ul  
+{
+    display: none;
+}
+
+#menu ul ul li:hover ul 
+{
+    display: block;
+}
+#menu > ul > li:first-child
+{
+    display: none;
+}
+/***************** MEGA MENU **************/
+.mega:hover .mega-menu
+{
+    display: flex;
+}
+.mega-menu 
+{
+    color: black;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 14VH);
+    display: none;
+    overflow: auto;
+}
+#menu .mega-menu ul, .mega-menu
+{
+    background-color: #efefef;
+    opacity: 0.7;
+}
+#menu .mega-menu ul li 
+{
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 5px;
+} 
+#menu .mega-menu ul li:hover, #menu .mega-menu ul li a:hover
+{
+    background-color: black;
+}
+#menu .mega-menu ul li:hover a, #menu .mega-menu ul li a:hover
+{
+    color: white;
+}
+#menu .mega-menu ul li a
+{
+    color: black;
+    line-height: 0;
+}
+
+@media screen and (max-width: 1250px){
+    /**** SOUS-MENU DE SOUS-MENU ****/
+    #menu ul li:nth-child(3) ul ul{
+        left: -240px;
+    }
+}
+@media screen and (max-width: 700px){
+    nav#menu >ul{
+        flex-direction: column;
+        gap: 0;
+    }
+    #menu ul li:hover ul{
+        display: none;
+    }
+    .dropdown::after{
+        content: "";
+    }
+    #menu > ul > li:first-child
+    {
+    display: block;
+    }
+    #menu .mega-menu
+    {
+        display: none;
+    }
+    #menu > ul > li
+    {
+    display: none;
+    }
+    #menu >ul li{
+        text-align: center;
+        border-bottom: 0.1px solid #ccc;
+    }
+    #menu >ul >li:last-child{
+        border: none;
+    }
+}
+
