@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,
+    700;1,400;1,500;1,700&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>mise en place menu javascript</title>
+</head>
+
+<body>
+
+
+    <nav id="menu" class="sticky">
+        <ul class="unlisted flex gap-10 jcc bold">
+            <li class="nav-item"><a href="#" class="p-20 block burger-icon"></a></li>
+            <li class="nav-item"><a href="#" class="p-20 block">Accueil</a></li>
+
+            <li class="nav-item relative"><a href="#" class="p-20 dropdown block">Nos Service</a>
+                <ul class="unlisted absolute">
+                    <li class="nav-item"><a href="#" class="p-20 block">Nos service web</a></li>
+
+                    <li class="nav-item relative"><a href="#" class="p-20 dropdown block ">Hebergement web</a>
+                        <ul class="unlisted absolute">
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Hebergement 2017</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Hebergement 2019</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Hebergement 2020</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item relative"><a href="#" class="p-20 dropdown block">Nos service Cloud</a>
+                        <ul class="unlisted absolute">
+                            <li class="nav-item"><a href="#" class="p-20 block">Cloud AWS 2017</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Cloud AWS 2019</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Cloud AWS 2020</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="nav-item relative"><a href="#" class="p-20 dropdown block">Pack Premium</a>
+                <ul class="unlisted absolute">
+                    <li class="nav-item relative"><a href="#" class="p-20 dropdown block">Parck Starter</a>
+                        <ul class="unlisted absolute">
+                            <li class="nav-item"><a href="#" class="p-20 block">Parck Starter 2017</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Parck Starter 2019</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Parck Starter 2020</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item relative"><a href="#" class="p-20 dropdown block">Pack Business</a>
+                        <ul class="unlisted absolute">
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Business 2017</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Business 2019</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Business 2020</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item relative"><a href="#" class="p-20 block dropdown">Pack Ultime</a>
+                        <ul class="unlisted absolute">
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Ultime 2017</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Ultime 2019</a></li>
+                            <li class="nav-item"><a href="#" class="p-20 block">Pack Ultime 2020</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="p-20 block">Nos service Cloud</a></li>
+
+            <li class="nav-item mega "><a href="#" class="p-20 dropdown block">Blog</a>
+                <div class="mega-menu absolute flex wrap gap-30 jcc">
+                    <div class="mega-menu-item ">
+                        <h3>HTML & CSS</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction HTML 5</a></li>
+                            <li class="mega-nav-item"><a href="#">Découverte HTML 5</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe HTML 5</a></li>
+                            <li class="mega-nav-item"><a href="#">Création d'un document HTML 5</a></li>
+                            <li class="mega-nav-item"><a href="#">Les balises HTML 5</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>CSS 3</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction CSS 3</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage CSS 3</a></li>
+                            <li class="mega-nav-item"><a href="#">Les sélecteurs CSS 3</a></li>
+                            <li class="mega-nav-item"><a href="#">Les pseudo-classes CSS 3</a></li>
+                            <li class="mega-nav-item"><a href="#">Les pseudo-eléments CSS 3</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>javaScript</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction au langage JavaScript</a></li>
+                            <li class="mega-nav-item"><a href="#">C'est quoi javaScript</a></li>
+                            <li class="mega-nav-item"><a href="#">Programmation évènementielle</a></li>
+                            <li class="mega-nav-item"><a href="#">La manipulation du DOM</a></li>
+                            <li class="mega-nav-item"><a href="#">Les sélecteurs en JavaScript</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-item ">
+                        <h3>PHP 8</h3>
+                        <ul class="unlisted">
+                            <li class="mega-nav-item"><a href="#">Introduction PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Decouverte de PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Syntaxe du langage PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Création D'un Script PHP 8</a></li>
+                            <li class="mega-nav-item"><a href="#">Les Fonctions PHP 8</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item"><a href="#" class="p-20 block">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="slider">
+        <img src="/assets/images/man.jpg" width="100%" alt="man">
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
